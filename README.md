@@ -1,8 +1,8 @@
 # README #
 
-The original [cinco](https://github.com/sifive/cinco) repo allows to program Freedom E300 boards using the Arduino IDE on `Linux` and `MacOS` only.
+The original [cinco](https://github.com/sifive/cinco) repo allows to program Freedom E300 boards using the Arduino IDE on **Linux** and **MacOS** only.
 
-This repository allows to program Freedom E300 boards using the Arduino IDE on `Windows` also.
+This repository allows to program Freedom E300 boards using the Arduino IDE on **Windows** also.
 
 ## Notes: ##
 1. Tested with Arduino IDE 1.6.12 - 1.8.5 on Windows.
@@ -45,6 +45,6 @@ then "Upload" to program to your board. The green LED should blink.
 
 ## rgb_lead_fade Example ##
 
-The example, achieves the same fade effect as in the led_fade example come with Freedom Studio.
+This example achieves the same fade effect as in the led_fade example supplied with Freedom Studio.
 
 `File->Open` and select `C:\Users\<user>\AppDAta\Local\Arduino15\packages\sifive\hardware\riscv\1.0.3\freedom-e-sdk\software\arduino\rgb_led_fade\rgb_led_fade.ino`
