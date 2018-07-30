@@ -1,0 +1,304 @@
+{
+    "packages": [
+    {
+        "name": "sifive", 
+        "maintainer": "SiFive", 
+        "websiteURL": "https://github.com/sifive/cinco", 
+        "email": "", 
+        "help": {
+        "online": "https://dev.sifive.com/"
+        }, 
+        "platforms": [
+        {
+            "category": "SiFive", 
+            "name": "SiFive Freedom Boards", 
+            "version": "1.0.3", 
+            "url": "https://github.com/westerndigitalcorporation/CincoWinPkg/releases/download/v1.0/sifive-1.0.3-8ee67a1.tar.bz2",
+            "checksum": "SHA-256:82fcfc1865f06549ec5220a859bd799da0f36fe56e9d8afc2c40cee5994ca925",
+            "archiveFileName": "sifive-1.0.3-8ee67a1.tar.bz2",
+            "size": "87550",
+            "architecture": "riscv", 
+            "boards": [
+            {"name": "HiFive1"}, 
+            {"name": "Freedom E300 Arty DevKit"} 
+            ], 
+            "toolsDependencies": [
+            {
+                "packager": "sifive", 
+                "version": "3f7b3696", 
+                "name": "riscv64-unknown-elf-gcc"
+            }, 
+            {
+                "packager": "sifive", 
+                "version": "9bab0782d313679bb0bfb634e6e87c757b8d5503", 
+                "name": "openocd"
+            }
+            ]
+        }, 
+        {
+            "category": "SiFive", 
+            "name": "SiFive Freedom Boards", 
+            "version": "1.0.2", 
+            "url": "http://static.dev.sifive.com/bsp/arduino/sifive-1.0.2-979a54b9.tar.bz2", 
+            "checksum": "SHA-256:ba9f0ac1903fe34f710f6daffc7460d4cfe682a9afaf7c371ea2b50b8d8dbac7", 
+            "archiveFileName": "sifive-1.0.2-979a54b9.tar.bz2", 
+            "size": "87293", 
+            "architecture": "riscv", 
+            "boards": [
+            {"name": "HiFive1"}, 
+            {"name": "Freedom E300 Arty DevKit"} 
+            ], 
+            "toolsDependencies": [
+            {
+                "packager": "sifive", 
+                "version": "3f7b3696217548bc31aeccf9a0c89bdfa4e16a8f", 
+                "name": "riscv32-unknown-elf-gcc"
+            }, 
+            {
+                "packager": "sifive", 
+                "version": "9bab0782d313679bb0bfb634e6e87c757b8d5503", 
+                "name": "openocd"
+            }
+            ]
+        }, 
+        {
+            "category": "SiFive", 
+            "name": "SiFive Freedom Boards", 
+            "version": "1.0.1", 
+            "url": "http://static.dev.sifive.com/bsp/arduino/sifive-1.0.1-9c82d00d.tar.bz2", 
+            "checksum": "SHA-256:aa24e716f253267c12fa32314facdf32a5dfbab0dffb8951394d93863fb599e1", 
+            "archiveFileName": "sifive-1.0.1-9c82d00d.tar.bz2", 
+            "size": "79218", 
+            "architecture": "riscv", 
+            "boards": [
+            {"name": "HiFive1"}, 
+            {"name": "Freedom E300 Arty DevKit"} 
+            ], 
+            "toolsDependencies": [
+            {
+                "packager": "sifive", 
+                "version": "e3e50c50f05c747c4a80faed706ded02b7e9b046", 
+                "name": "riscv32-unknown-elf-gcc"
+            }, 
+            {
+                "packager": "sifive", 
+                "version": "193f63094891cd3fe6a5032fef2c71d09f063ff4", 
+                "name": "openocd"
+            }
+            ]
+        }, 
+        {
+            "category": "SiFive", 
+            "name": "SiFive Freedom Boards", 
+            "url": "http://static.dev.sifive.com/bsp/arduino/sifive-1.0.0.tar.bz2", 
+            "checksum": "SHA-256:08c54b894ddbc9e88369935da957a3933f931d611e1741dc5bd6d9bc8fb47a26", 
+            "version": "1.0.0", 
+            "architecture": "riscv", 
+            "archiveFileName": "sifive-1.0.0.tar.bz2", 
+            "boards": [
+            {"name": "HiFive1"}, 
+            {"name": "Freedom E300 Arty DevKit"} 
+            ], 
+            "toolsDependencies": [
+            {
+                "packager": "sifive", 
+                "version": "e3e50c50f05c747c4a80faed706ded02b7e9b046", 
+                "name": "riscv32-unknown-elf-gcc"
+            }, 
+            {
+                "packager": "sifive", 
+                "version": "b474c22b33be7fa4969c0dfa9ccf172ce1bab5d0", 
+                "name": "openocd"
+            }
+            ], 
+            "size": "78960"
+        }
+        ], 
+        "tools": [
+        {
+            "version": "3f7b3696", 
+            "name": "riscv64-unknown-elf-gcc", 
+            "systems": [
+            {
+                "url": "https://github.com/westerndigitalcorporation/CincoWinPkg/releases/download/v1.0/riscv64-unknown-elf-gcc-20171231-w64-i686-mingw32.zip",
+                "checksum": "SHA-256:457d38fdd39fca7e6c46f17a38e63ddbb878c1ef1d0d4e7bbc41069b39b7bc4f", 
+                "host": "i686-mingw32", 
+                "archiveFileName": "riscv64-unknown-elf-gcc-20171231-w64-i686-mingw32.zip", 
+                "size": "382854056"
+            }
+            ]
+        }, 
+        {
+            "version": "3f7b3696217548bc31aeccf9a0c89bdfa4e16a8f", 
+            "name": "riscv32-unknown-elf-gcc", 
+            "systems": [
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-3f7b3696-x86_64-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:976e3b17b388d7ada2b6dbb9ca07719c0a188e25a48f0176560961fe287265bc", 
+                "host": "x86_64-pc-linux-gnu", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-3f7b3696-x86_64-pc-linux-gnu.tar.bz2", 
+                "size": "56081029"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-3f7b3696-i686-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:3f90f3ba4155bafa2ccb1972f0d6f744b6c01c35818621b72feaf5d30938a6b6", 
+                "host": "i686-pc-linux-gnu", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-3f7b3696-i686-pc-linux-gnu.tar.bz2", 
+                "size": "55511314"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-3f7b3696-x86_64-apple-darwin.tar.bz2", 
+                "checksum": "SHA-256:fb83e4cc78b3a36b0fbde6b964841b6d18ad16090f6cc1c4be46a165963500d6", 
+                "host": "x86_64-apple-darwin", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-3f7b3696-x86_64-apple-darwin.tar.bz2", 
+                "size": "54972938"
+            }
+            ]
+        }, 
+        {
+            "version": "e3e50c50f05c747c4a80faed706ded02b7e9b046", 
+            "name": "riscv32-unknown-elf-gcc", 
+            "systems": [
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-x86_64-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:840410951e96b2bae53f674080cde06bdddb954fe0c90d0d487eff2a282f0918", 
+                "host": "x86_64-pc-linux-gnu", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-34e199d-x86_64-pc-linux-gnu.tar.bz2", 
+                "size": "65730912"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-i686-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:32b4cc6eba11d6bbe8dd98d2f48370913e59441f00b4a145282d40cb8855ed33", 
+                "host": "i686-pc-linux-gnu", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-34e199d-i686-pc-linux-gnu.tar.bz2", 
+                "size": "65162167"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-mac.tar.bz2", 
+                "checksum": "SHA-256:62c9e1d856034973989314d53dbbd0dc506e069c26054eaeb0e502f85190a47b", 
+                "host": "x86_64-apple-darwin", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-e3e50c50-mac.tar.bz2", 
+                "size": "55100347"
+            }
+            ]
+        }, 
+        {
+            "version": "e3e50c50f05c747c4a80faed706ded02b7e9b046", 
+            "name": "riscv32-unknown-elf-gcc", 
+            "systems": [
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-x86_64-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:840410951e96b2bae53f674080cde06bdddb954fe0c90d0d487eff2a282f0918", 
+                "host": "x86_64-pc-linux-gnu", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-34e199d-x86_64-pc-linux-gnu.tar.bz2", 
+                "size": "65730912"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-i686-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:32b4cc6eba11d6bbe8dd98d2f48370913e59441f00b4a145282d40cb8855ed33", 
+                "host": "i686-pc-linux-gnu", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-34e199d-i686-pc-linux-gnu.tar.bz2", 
+                "size": "65162167"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/riscv32-unknown-elf-gcc-e3e50c50-mac.tar.bz2", 
+                "checksum": "SHA-256:62c9e1d856034973989314d53dbbd0dc506e069c26054eaeb0e502f85190a47b", 
+                "host": "x86_64-apple-darwin", 
+                "archiveFileName": "riscv32-unknown-elf-gcc-e3e50c50-mac.tar.bz2", 
+                "size": "55100347"
+            }
+            ]
+        }, 
+        {
+            "version": "9bab0782d313679bb0bfb634e6e87c757b8d5503", 
+            "name": "openocd", 
+            "systems": [
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-9bab0782-x86_64-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:835c9a11b5118d73944211fd1a9182375b8ec80aa5068b8c3a2895d1a84964d5", 
+                "host": "x86_64-pc-linux-gnu", 
+                "archiveFileName": "openocd-9bab0782-x86_64-pc-linux-gnu.tar.bz2", 
+                "size": "1280792"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-9bab0782-i686-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:003e23ecd8988a236672f4f30c11f1795b41a75920759d333ef9585e072884e3", 
+                "host": "i686-pc-linux-gnu", 
+                "archiveFileName": "openocd-9bab0782-i686-pc-linux-gnu.tar.bz2", 
+                "size": "1255956"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-9bab0782-x86_64-apple-darwin.tar.bz2", 
+                "checksum": "SHA-256:145e891a2324a025d3ac20f8e33cde69eddb5fa49ec1e9b8143db807c8ae6214", 
+                "host": "x86_64-apple-darwin", 
+                "archiveFileName": "openocd-9bab0782-x86_64-apple-darwin.tar.bz2", 
+                "size": "1228980"
+            }, 
+            {
+                "url": "https://github.com/westerndigitalcorporation/CincoWinPkg/releases/download/v1.0/riscv-openocd-20171231-x86_64-w64-mingw32.zip",
+                "checksum": "SHA-256:c1f3ebf2042d9e2d1b80a4634cac07c3b826e46d2308e844a9a06c080e2d4f72", 
+                "host": "i686-mingw32", 
+                "archiveFileName": " riscv-openocd-20171231-x86_64-w64-mingw32.zip", 
+                "size": "2512153"
+            }
+            ]
+        }, 
+        {
+            "version": "193f63094891cd3fe6a5032fef2c71d09f063ff4", 
+            "name": "openocd", 
+            "systems": [
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-193f6309-x86_64-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:0170f33abce4137cf7d1f767bf720c40590245685d6bdf58d92ec8fa9af58abc", 
+                "host": "x86_64-pc-linux-gnu", 
+                "archiveFileName": "openocd-193f6309-x86_64-pc-linux-gnu.tar.bz2", 
+                "size": "1255104"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-193f6309-i686-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:2845437567d284d10152c42f6577f34c1250d80871d5df6d88c37a2748c3f8aa", 
+                "host": "i686-pc-linux-gnu", 
+                "archiveFileName": "openocd-193f6309-i686-pc-linux-gnu.tar.bz2", 
+                "size": "1280021"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-193f6309-x86_64-apple-darwin.tar.bz2", 
+                "checksum": "SHA-256:b873f095aaa2beed8ad76c28b9c9808ebb534c0098eee9d1b1514ac3819efef3", 
+                "host": "x86_64-apple-darwin", 
+                "archiveFileName": "openocd-193f6309-x86_64-apple-darwin.tar.bz2", 
+                "size": "1228711"
+            }
+            ]
+        }, 
+        {
+            "version": "b474c22b33be7fa4969c0dfa9ccf172ce1bab5d0", 
+            "name": "openocd", 
+            "systems": [
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-b474c22b-x86_64-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:35d29d102ea605eedb15a1f6ff83790711f5ed818f1b422d0a292eaed9800f0b", 
+                "host": "x86_64-pc-linux-gnu", 
+                "archiveFileName": "openocd-e31dd22-x86_64-pc-linux-gnu.tar.bz2", 
+                "size": "1279811"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-b474c22b-i686-pc-linux-gnu.tar.bz2", 
+                "checksum": "SHA-256:c7017881b83a27f5201656b5c712f8a718e7b2a994e943278b568e5017bdd639", 
+                "host": "i686-pc-linux-gnu", 
+                "archiveFileName": "openocd-e31dd22-i686-pc-linux-gnu.tar.bz2", 
+                "size": "1254114"
+            }, 
+            {
+                "url": "http://static.dev.sifive.com/bsp/arduino/openocd-b474c22b-mac.tar.bz2", 
+                "checksum": "SHA-256:b188ca4ed3097b86ce374dc5c969079142e7f648d9f8f3280fd5f439a8ad153a", 
+                "host": "x86_64-apple-darwin", 
+                "archiveFileName": "openocd-b474c22b-mac.tar.bz2", 
+                "size": "1228629"
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}
+
