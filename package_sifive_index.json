@@ -10,6 +10,32 @@
         }, 
         "platforms": [
         {
+            "category": "SiFive",
+            "name": "SiFive Freedom Boards",
+            "version": "1.0.6",
+            "url": "https://github.com/westerndigitalcorporation/CincoWinPkg/releases/download/v2.0/sifive-1.0.6-9d8e9ab9.tar.bz2",
+            "checksum": "SHA-256:e89b8f099989c56aa676a739f3fd5a0af1273084926feca7bc70a34cbf72e881",
+            "archiveFileName": "sifive-1.0.6-9d8e9ab9.tar.bz2",
+            "size": "8562801",
+            "architecture": "riscv",
+            "boards": [
+            {"name": "HiFive1"},
+            {"name": "Freedom E300 Arty DevKit"}
+            ],
+            "toolsDependencies": [
+            {
+                "packager": "sifive",
+                "version": "3f7b3696",
+                "name": "riscv64-unknown-elf-gcc"
+            },
+            {
+                "packager": "sifive",
+                "version": "9bab0782d313679bb0bfb634e6e87c757b8d5503",
+                "name": "openocd"
+            }
+            ]
+        },
+        {
             "category": "SiFive", 
             "name": "SiFive Freedom Boards", 
             "version": "1.0.3", 
