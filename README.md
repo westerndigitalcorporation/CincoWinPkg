@@ -26,9 +26,9 @@ Use the Boards Manager to search for and install the "SiFive" boards.
 
 ## Install USB Driver
 
-1. Connect the HiFive1 board to the USB port intended to be used with the HiFive1 board. The driver will be installed on this port only. For several USB ports installation, you will need the HiFive1 boards connected to all these ports at the driver installation time.
-2. Install FTDI driver for your version of Windows from [here](https://www.ftdichip.com/Drivers/VCP.htm)
+1. Connect HiFive1 board to USB port intended to be used with the HiFive1 board. The driver will be installed on this port only. For several USB ports installation, you will need the HiFive1 boards connected to all these ports at the driver installation time.
 2. Install HiFive1 driver [https://github.com/westerndigitalcorporation/CincoWinPkg/releases/download/v1.0/HiFive1_Driver.exe](https://github.com/westerndigitalcorporation/CincoWinPkg/releases/download/v1.0/HiFive1_Driver.exe)
+3. If FTDI driver is not installed on your computer and there is an available internet connection, Windows will silently connect to the Windows Update website and install any suitable driver it finds for the device. If no suitable driver is automatically found then follow the installation procedure for your version of Windows from FTDI [site](https://www.ftdichip.com/Drivers/VCP.htm).
 
 # Setup Your Board
 
